@@ -1,5 +1,9 @@
 # **DLAS-Net:Dual-Level Anomaly Synthesis Network for Weak Anomaly Detection in Liquid Crystal Displays**
 
+![Fig2_框架图3](https://github.com/user-attachments/assets/d7986cac-8d1e-4297-885b-9faca3d803d8)
+
+
+
 ## **Introduction**
 This repo contains the official PyTorch implementation of DLAS-Net, a dual-level anomaly synthesis network for self-supervised anomaly detection in display, with a particular focus on weak anomalies (small, low-contrast, or locally non-uniform textures). 
 We also release our self-built dataset, AnoLCD, together with training and evaluation scripts to enable reproducible experiments.
@@ -8,17 +12,10 @@ We also release our self-built dataset, AnoLCD, together with training and evalu
 
 The table below reports the overall performance of **DLAS-Net** on **AnoLCD**.
 
-| Method   | I-AUROC ↑ | I-AP ↑ | I-RPT@95TPR ↑ | P-AUROC ↑ | P-AP ↑ | P-RPT@95TPR ↑ |
-|---------:|:---------:|:------:|:-------------:|:---------:|:------:|:-------------:|
-| DLAS-Net | **99.4%** |  2.6%  | **99.7%**     | **98.6%** |  4.4%  | **98.0%**     |
+| I-AUROC ↑ | I-AP ↑ | I-RPT@95TPR ↓ | P-AUROC ↑ | P-AP ↑ | P-RPT@95TPR ↓ |
+|:---------:|:------:|:-------------:|:---------:|:------:|:-------------:|
+| **99.4%** |**99.7%**| **2.6%**     | **98.6%** |  **88.0%**  | **4.4%** |
 
-
-
-
-
-<p align="center">
-  <span>&emsp;&emsp;Result on LCD light defect dataset</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>Result on LCD surface defect dataset</span>
-</p>
 
 ## **Highlight**
 
