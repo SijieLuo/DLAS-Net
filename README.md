@@ -57,10 +57,10 @@ Representative examples are shown below: **(a)–(e)** correspond to **cylinder,
 
 To evaluate the generalization of our method on both **weak anomalies** and **texture anomalies**, we conduct experiments on two public datasets:
 
-- **MAD-SYS** — A dataset targeting weak anomalies in complex industrial scenarios.  
+- **MAD-sys** — A dataset targeting weak anomalies in complex industrial scenarios.  
   **Download:** https://www.mvtec.com/company/research/datasets/mvtec-ad/
 
-- **MVTec-Tex** — A texture benchmark (subset of MVTec-AD) for detecting and localizing defects in homogeneous textures.  
+- **MVTec-tex** — A texture benchmark (subset of MVTec-AD) for detecting and localizing defects in homogeneous textures.  
   **Download:** https://drive.google.com/file/d/1uLGWmOc4D9PuQawE-2nFS3p6XQzKrVsn/view?pli=1
 
 > Please follow the licenses and usage terms of the respective datasets.
