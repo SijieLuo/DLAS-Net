@@ -1,0 +1,17 @@
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+opencv-python==4.11.0.86
+numpy==1.26.3
+scikit-learn==1.4.0
+scipy==1.11.4
+pandas==1.5.2
+Pillow==10.2.0
+tqdm==4.66.1
+matplotlib==3.8.2
+tensorboard==2.15.1
+onnx==1.16.2
+onnxruntime-gpu==1.18.1
+onnxsim==0.4.36
+timm==0.9.12
+scikit-image==0.22.0
