@@ -78,7 +78,7 @@ bash run.sh
 ```
 
 ## **Acknowledge**
-Thanks for the great inspiration from GLASS, SimpleNet!
+Thanks for the great inspiration from [GLASS](https://github.com/cqylunlun/GLASS) and [SimpleNet](https://github.com/DonaldRR/SimpleNet)!
 
 ## **Citation**
 
